@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risk Assessment Hazards - Libary</title>
+    <link rel="icon" href="../../Assets/Icons/bridge-flavicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="riskHazardLibaryStyles.css">
+</head>
+<body>
+    <h1>Risk Assessment Hazard Libary</h1>
+    <div class="button-container">
+        <button id="Vulnerable Detail Button">Vulnerable Details and Material Hazards</button>
+        <button id="Condition External Button">Conodition Hazards - External</button>
+        <button id="Condition Internal Button">Conodition Hazards - Internal</button>
+        <button id="History Button">History Hazards</button>
+        <button id="Assessment Button">Assessment Hazards</button>
+    </div>
+    <div id="Libary Container">
+        <div id="Vulnerable Details and Material Hazards" class="collapsed-content">
+            <h2>Vulnerable Details and Material Hazards</h2>
+            <div id="Vulnerable Details and Material Hazards - Inner Content Container">
+            </div>
+        </div>
+        <div id="Condition Hazards - External" class="collapsed-content">
+            <h2>Conodition Hazards - External</h2>
+            <div id="Condition Hazards - External - Inner Content Container">
+            </div>            
+        </div>
+        <div id="Condition Hazards - Internal" class="collapsed-content">
+            <h2>Conodition Hazards - Internal</h2>
+            <div id="Condition Hazards - Internal - Inner Content Container" >
+            </div>
+        </div>
+        <div id="History Hazards" class="collapsed-content">
+            <h2>History Hazards</h2>
+            <div id="History Hazards - Inner Content Container">
+            </div>
+        </div>
+        <div id="Assessment Hazards" class="collapsed-content">
+            <h2>Assessment Hazards</h2>
+            <div id="Assessment Hazards - Inner Content Container">
+            </div>
+        </div>
+    </div>
+
+    <button id="myBtn" title="Go to top">Top</button>
+
+
+    <script src="../riskHazardDatabase.JSON"></script>
+    <script src="riskAssessmentHazardClass.js" type="module"></script>
+    <script src="riskHazardLibary.js" type="module"></script>
+</body>
+</html>
