@@ -140,3 +140,16 @@ li {
     background-color: #777;
   }
   
+/* Define a CSS rule for the title container to use flexbox */
+.title-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* Add cursor style for clickable element */
+  }
+  
+  /* Define a CSS rule for the arrow class to adjust the font size */
+  .arrow {
+    font-size: 10px; /* Adjust the font size of the arrows */
+    margin-right: 5px;
+    padding-left: 10px; /* Add some spacing between the arrow and the title */
+  }

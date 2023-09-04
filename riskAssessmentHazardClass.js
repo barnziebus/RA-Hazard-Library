@@ -20,17 +20,37 @@ export class RiskAssessmentHazard {
     }
 
     createTitle(container, title, innerContentElement) {
-        // create a title element for the hazard and attach to the sub catagory container
+        // Create a title element for the hazard and attach it to the subcategory container
         let titleEl = document.createElement('h3');
         titleEl.innerText = title;
-        container.appendChild(titleEl);
-
-        // add the click element to toggle the visible content
-        titleEl.addEventListener('click', () => {
-            innerContentElement.classList.toggle('visible-content'); // hide description content
-            innerContentElement.classList.toggle('collapsed-content'); // hide description content
+      
+        // Create a container div to hold the title and arrow
+        let titleContainer = document.createElement('div');
+        titleContainer.classList.add('title-container'); // Add a class for styling
+        container.appendChild(titleContainer);
+      
+        // Create a span for the arrow with a class
+        let arrowSpan = document.createElement('span');
+        arrowSpan.innerText = "➕";
+        arrowSpan.classList.add('arrow'); // Add a class for styling the arrow
+      
+        // Append the arrow span and title to the title container
+        titleContainer.appendChild(arrowSpan);
+        titleContainer.appendChild(titleEl);
+      
+        // Add the click event listener to toggle the visible content
+        titleContainer.addEventListener('click', () => {
+          innerContentElement.classList.toggle('visible-content');
+          innerContentElement.classList.toggle('collapsed-content');
+      
+          if (innerContentElement.classList.contains("visible-content")) {
+            arrowSpan.innerText = "➖";
+          } else {
+            arrowSpan.innerText = "➕";
+          }
         });
     }
+      
 
     createEventDescription(container, hazardInfo) {
         // create the event description and add to the catagory container
