@@ -104,6 +104,18 @@ let RAHazardData = {
     "Tendons Protected Only By Mortar/Concrete Surround": {
       "Catagory": "Vulnerable Details and Material Hazards",
       "Sub Catagory": "Prestressing System",
+      "Event Description": "Tendons that lack the protective barrier of tendon ducts, relying solely on mortar and concrete for protection, become more vulnerable to the infiltration of water, chlorides, and other contaminants. This heightened susceptibility can potentially accelerate the deterioration rate of post-tensioned tendons.",
+      "Additional Info": [
+        "One common method of safeguarding tendons is by encasing them within ducts, which are typically made of plastic or metal. These ducts are positioned within the concrete structure during the initial construction phase and serve as a barrier between the tendons and the surrounding concrete. This protective measure offers several benefits:",
+        "Corrosion Prevention: Tendon ducts create a shield that helps prevent direct contact between the steel tendons and the concrete. Concrete is porous, allowing water, chlorides, and other corrosive agents to penetrate over time. By housing the tendons within ducts, exposure to these corrosive elements is significantly reduced.",
+        "Ease of Inspection and Maintenance: Tendon ducts provide a conduit for inspecting and maintaining the tendons. Engineers and inspectors can access the ducts to check for signs of corrosion, damage, or other issues without the need for invasive and costly concrete removal.",
+        "Environmental Protection: In harsh environments, such as coastal regions with high salt concentrations, or in areas with aggressive chemical exposures, tendon ducts are essential for protecting the tendons from rapid deterioration.",
+        "However, in some construction scenarios, such as in older buildings or due to design and budget constraints, tendon ducts may not be used. When tendons are directly embedded within the concrete without ducts, they are more susceptible to environmental ingress, including water, chlorides, and contaminants from the surrounding concrete. This heightened vulnerability can lead to several issues:",
+        "Corrosion Risk: Without the protective barrier of ducts, tendons are at a higher risk of corrosion, especially in areas with exposure to moisture or chloride-rich environments. Corrosion can weaken the tendons and compromise the structural integrity of the building.",
+        "Reduced Longevity: Tendons exposed to harsh environmental conditions are more likely to deteriorate over time, potentially necessitating costly repairs or replacements.",
+        "Safety Concerns: Weakened tendons can pose safety hazards, as they are critical components in maintaining structural stability.",
+        "In conclusion, the presence or absence of tendon ducts in post-tensioned concrete structures significantly impacts their durability and long-term performance. While ducts provide a protective barrier against environmental factors, tendons without this safeguard are at greater risk of deterioration, potentially compromising the structural integrity of the building. Therefore, careful consideration of construction methods and materials is crucial to ensure the longevity and safety of such structures."
+      ],
       "Consequence Description": "No physical barrier protecting the tendons means that water containing salts could penetrate through defects in the concrete and cause corrosion of the tendons resulting in loss of capacity and eventual structural failure.",
       "Consequence Rating": "High",
       "Risk Management Measures": ["Undertake further PTSI Site Investigations to determine the current condition of the post-tensioning system."]
